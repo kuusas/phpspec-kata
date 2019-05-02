@@ -1,0 +1,14 @@
+{
+    "require": {
+        "phpspec/phpspec": "^5.1"
+    },
+    "autoload": {
+        "files": [ "vendor/autoload.php" ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Kata\\": "src/",
+            "spec\\": "spec/"
+        }    
+    }
+}
